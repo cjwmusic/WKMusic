@@ -13,6 +13,7 @@
 		6718957D1D54C25E007E3720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */; };
 		671895881D54C25E007E3720 /* WKMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895871D54C25E007E3720 /* WKMusicTests.m */; };
 		671895931D54C25E007E3720 /* WKMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895921D54C25E007E3720 /* WKMusicUITests.m */; };
+		677981F91D55FE6A00FCAADB /* WKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 677981F81D55FE6A00FCAADB /* WKUtil.m */; };
 		678647781D54C66A00451958 /* WKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678647771D54C66A00451958 /* WKBaseViewController.m */; };
 		6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786477B1D54C6A400451958 /* WKRootViewController.m */; };
 		DF896CBF0806802F2FADC35E /* libPods-WKMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */; };
@@ -51,6 +52,8 @@
 		671895941D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		677981AE1D55BF1600FCAADB /* WKMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WKMusic-Prefix.pch"; path = "WKMusic/WKMusic-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		677981AF1D55C19B00FCAADB /* WKDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDefinition.h; sourceTree = "<group>"; };
+		677981F71D55FE6A00FCAADB /* WKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUtil.h; sourceTree = "<group>"; };
+		677981F81D55FE6A00FCAADB /* WKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUtil.m; sourceTree = "<group>"; };
 		678647761D54C66A00451958 /* WKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseViewController.h; sourceTree = "<group>"; };
 		678647771D54C66A00451958 /* WKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseViewController.m; sourceTree = "<group>"; };
 		6786477A1D54C6A400451958 /* WKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRootViewController.h; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 		671895A31D54C56B007E3720 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				677981F71D55FE6A00FCAADB /* WKUtil.h */,
+				677981F81D55FE6A00FCAADB /* WKUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677981F91D55FE6A00FCAADB /* WKUtil.m in Sources */,
 				671895721D54C25E007E3720 /* AppDelegate.m in Sources */,
 				6718956F1D54C25E007E3720 /* main.m in Sources */,
 				6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */,
