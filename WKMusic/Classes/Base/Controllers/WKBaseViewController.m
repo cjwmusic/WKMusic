@@ -8,6 +8,15 @@
 
 #import "WKBaseViewController.h"
 
+@interface WKBaseViewController()
+
+@end
+
 @implementation WKBaseViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithHexString:kWKColorBackgroundColor];
+}
 
 @end
