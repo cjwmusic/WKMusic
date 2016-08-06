@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6718956F1D54C25E007E3720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718956E1D54C25E007E3720 /* main.m */; };
+		671895721D54C25E007E3720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895711D54C25E007E3720 /* AppDelegate.m */; };
+		6718957A1D54C25E007E3720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671895791D54C25E007E3720 /* Assets.xcassets */; };
+		6718957D1D54C25E007E3720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */; };
+		671895881D54C25E007E3720 /* WKMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895871D54C25E007E3720 /* WKMusicTests.m */; };
+		671895931D54C25E007E3720 /* WKMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895921D54C25E007E3720 /* WKMusicUITests.m */; };
+		678647781D54C66A00451958 /* WKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678647771D54C66A00451958 /* WKBaseViewController.m */; };
+		6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786477B1D54C6A400451958 /* WKRootViewController.m */; };
+		DF896CBF0806802F2FADC35E /* libPods-WKMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		671895841D54C25E007E3720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671895621D54C25E007E3720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671895691D54C25E007E3720;
+			remoteInfo = WKMusic;
+		};
+		6718958F1D54C25E007E3720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671895621D54C25E007E3720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671895691D54C25E007E3720;
+			remoteInfo = WKMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6718956A1D54C25E007E3720 /* WKMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6718956E1D54C25E007E3720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671895701D54C25E007E3720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		671895711D54C25E007E3720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		671895791D54C25E007E3720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6718957C1D54C25E007E3720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6718957E1D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671895831D54C25E007E3720 /* WKMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		671895871D54C25E007E3720 /* WKMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMusicTests.m; sourceTree = "<group>"; };
+		671895891D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		671895921D54C25E007E3720 /* WKMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMusicUITests.m; sourceTree = "<group>"; };
+		671895941D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678647761D54C66A00451958 /* WKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseViewController.h; sourceTree = "<group>"; };
+		678647771D54C66A00451958 /* WKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseViewController.m; sourceTree = "<group>"; };
+		6786477A1D54C6A400451958 /* WKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRootViewController.h; sourceTree = "<group>"; };
+		6786477B1D54C6A400451958 /* WKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRootViewController.m; sourceTree = "<group>"; };
+		A0DEAFFE665C84E7D126C6CB /* Pods-WKMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic.release.xcconfig"; sourceTree = "<group>"; };
+		BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FEFB9EB42A56EF29854C14 /* Pods-WKMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671895671D54C25E007E3720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF896CBF0806802F2FADC35E /* libPods-WKMusic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671895801D54C25E007E3720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6718958B1D54C25E007E3720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409BA12EF99445AF37BBC012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8FEFB9EB42A56EF29854C14 /* Pods-WKMusic.debug.xcconfig */,
+				A0DEAFFE665C84E7D126C6CB /* Pods-WKMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		671895611D54C25E007E3720 = {
+			isa = PBXGroup;
+			children = (
+				6718956C1D54C25E007E3720 /* WKMusic */,
+				671895861D54C25E007E3720 /* WKMusicTests */,
+				671895911D54C25E007E3720 /* WKMusicUITests */,
+				6718956B1D54C25E007E3720 /* Products */,
+				409BA12EF99445AF37BBC012 /* Pods */,
+				C001D2D1CAFB11A44BEDC255 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6718956B1D54C25E007E3720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6718956A1D54C25E007E3720 /* WKMusic.app */,
+				671895831D54C25E007E3720 /* WKMusicTests.xctest */,
+				6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6718956C1D54C25E007E3720 /* WKMusic */ = {
+			isa = PBXGroup;
+			children = (
+				671895A01D54C56B007E3720 /* Classes */,
+				671895701D54C25E007E3720 /* AppDelegate.h */,
+				671895711D54C25E007E3720 /* AppDelegate.m */,
+				671895791D54C25E007E3720 /* Assets.xcassets */,
+				6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */,
+				6718957E1D54C25E007E3720 /* Info.plist */,
+				6718956D1D54C25E007E3720 /* Supporting Files */,
+			);
+			path = WKMusic;
+			sourceTree = "<group>";
+		};
+		6718956D1D54C25E007E3720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6718956E1D54C25E007E3720 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		671895861D54C25E007E3720 /* WKMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				671895871D54C25E007E3720 /* WKMusicTests.m */,
+				671895891D54C25E007E3720 /* Info.plist */,
+			);
+			path = WKMusicTests;
+			sourceTree = "<group>";
+		};
+		671895911D54C25E007E3720 /* WKMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				671895921D54C25E007E3720 /* WKMusicUITests.m */,
+				671895941D54C25E007E3720 /* Info.plist */,
+			);
+			path = WKMusicUITests;
+			sourceTree = "<group>";
+		};
+		671895A01D54C56B007E3720 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				671895A11D54C56B007E3720 /* Base */,
+				678647791D54C68B00451958 /* Root */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		671895A11D54C56B007E3720 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				671895A21D54C56B007E3720 /* Controllers */,
+				671895A31D54C56B007E3720 /* Utils */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		671895A21D54C56B007E3720 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				678647761D54C66A00451958 /* WKBaseViewController.h */,
+				678647771D54C66A00451958 /* WKBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		671895A31D54C56B007E3720 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		678647791D54C68B00451958 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6786477A1D54C6A400451958 /* WKRootViewController.h */,
+				6786477B1D54C6A400451958 /* WKRootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C001D2D1CAFB11A44BEDC255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671895691D54C25E007E3720 /* WKMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671895971D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusic" */;
+			buildPhases = (
+				87AD3AED65873AAB5DFB043C /* [CP] Check Pods Manifest.lock */,
+				671895661D54C25E007E3720 /* Sources */,
+				671895671D54C25E007E3720 /* Frameworks */,
+				671895681D54C25E007E3720 /* Resources */,
+				83B8B6A6EC7B4C6815D6B6A5 /* [CP] Embed Pods Frameworks */,
+				0184F03737B9F076A69EC57E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKMusic;
+			productName = WKMusic;
+			productReference = 6718956A1D54C25E007E3720 /* WKMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		671895821D54C25E007E3720 /* WKMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6718959A1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicTests" */;
+			buildPhases = (
+				6718957F1D54C25E007E3720 /* Sources */,
+				671895801D54C25E007E3720 /* Frameworks */,
+				671895811D54C25E007E3720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671895851D54C25E007E3720 /* PBXTargetDependency */,
+			);
+			name = WKMusicTests;
+			productName = WKMusicTests;
+			productReference = 671895831D54C25E007E3720 /* WKMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6718958D1D54C25E007E3720 /* WKMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6718959D1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicUITests" */;
+			buildPhases = (
+				6718958A1D54C25E007E3720 /* Sources */,
+				6718958B1D54C25E007E3720 /* Frameworks */,
+				6718958C1D54C25E007E3720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671895901D54C25E007E3720 /* PBXTargetDependency */,
+			);
+			name = WKMusicUITests;
+			productName = WKMusicUITests;
+			productReference = 6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671895621D54C25E007E3720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wukong;
+				TargetAttributes = {
+					671895691D54C25E007E3720 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					671895821D54C25E007E3720 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 671895691D54C25E007E3720;
+					};
+					6718958D1D54C25E007E3720 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 671895691D54C25E007E3720;
+					};
+				};
+			};
+			buildConfigurationList = 671895651D54C25E007E3720 /* Build configuration list for PBXProject "WKMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671895611D54C25E007E3720;
+			productRefGroup = 6718956B1D54C25E007E3720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671895691D54C25E007E3720 /* WKMusic */,
+				671895821D54C25E007E3720 /* WKMusicTests */,
+				6718958D1D54C25E007E3720 /* WKMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671895681D54C25E007E3720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6718957D1D54C25E007E3720 /* LaunchScreen.storyboard in Resources */,
+				6718957A1D54C25E007E3720 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671895811D54C25E007E3720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6718958C1D54C25E007E3720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0184F03737B9F076A69EC57E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B8B6A6EC7B4C6815D6B6A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AD3AED65873AAB5DFB043C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671895661D54C25E007E3720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671895721D54C25E007E3720 /* AppDelegate.m in Sources */,
+				6718956F1D54C25E007E3720 /* main.m in Sources */,
+				6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */,
+				678647781D54C66A00451958 /* WKBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6718957F1D54C25E007E3720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671895881D54C25E007E3720 /* WKMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6718958A1D54C25E007E3720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671895931D54C25E007E3720 /* WKMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		671895851D54C25E007E3720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671895691D54C25E007E3720 /* WKMusic */;
+			targetProxy = 671895841D54C25E007E3720 /* PBXContainerItemProxy */;
+		};
+		671895901D54C25E007E3720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671895691D54C25E007E3720 /* WKMusic */;
+			targetProxy = 6718958F1D54C25E007E3720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6718957C1D54C25E007E3720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671895951D54C25E007E3720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		671895961D54C25E007E3720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671895981D54C25E007E3720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FEFB9EB42A56EF29854C14 /* Pods-WKMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		671895991D54C25E007E3720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DEAFFE665C84E7D126C6CB /* Pods-WKMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6718959B1D54C25E007E3720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WKMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKMusic.app/WKMusic";
+			};
+			name = Debug;
+		};
+		6718959C1D54C25E007E3720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WKMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKMusic.app/WKMusic";
+			};
+			name = Release;
+		};
+		6718959E1D54C25E007E3720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WKMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKMusic;
+			};
+			name = Debug;
+		};
+		6718959F1D54C25E007E3720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WKMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671895651D54C25E007E3720 /* Build configuration list for PBXProject "WKMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671895951D54C25E007E3720 /* Debug */,
+				671895961D54C25E007E3720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671895971D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671895981D54C25E007E3720 /* Debug */,
+				671895991D54C25E007E3720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6718959A1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6718959B1D54C25E007E3720 /* Debug */,
+				6718959C1D54C25E007E3720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6718959D1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6718959E1D54C25E007E3720 /* Debug */,
+				6718959F1D54C25E007E3720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671895621D54C25E007E3720 /* Project object */;
+}
