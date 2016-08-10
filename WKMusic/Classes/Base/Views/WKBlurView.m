@@ -12,7 +12,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.blurRadius = 15;
+        self.blurRadius = 40;
         self.tintColor = [UIColor blackColor];
     }
     

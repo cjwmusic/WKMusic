@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WKRootViewController.h"
+#import "WKMainPlayerViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
-    WKRootViewController *rootVc = [[WKRootViewController alloc] init];
+    WKMainPlayerViewController *rootVc = [[WKMainPlayerViewController alloc] init];
     self.window.rootViewController = rootVc;
     
     [self.window makeKeyAndVisible];

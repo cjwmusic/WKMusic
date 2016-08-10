@@ -8,10 +8,12 @@
 
 #import "WKRootViewController.h"
 #import "WKUserItem.h"
+#import "WKBlurView.h"
 
 @interface WKRootViewController()
 
 @property (nonatomic, strong) WKImageView *imageView;
+@property (nonatomic, strong) WKBlurView *blurView;
 
 @end
 
@@ -23,8 +25,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.imageView];
+    [self.view addSubview:self.blurView];
     
-    self.imageView.imageUrlString = @"http://img1.ph.126.net/KTR6BiWabyqPdq9pCwTBgw==/6631812135071925499.jpg";
+    self.imageView.imageUrlString = @"http://img0.ph.126.net/dGlTX7fwuT5MPHCSuTkgnQ==/2003538884326501794.jpg";
 }
 
 #pragma mark - 
@@ -39,7 +42,13 @@
     return _imageView;
 }
 
-
+- (WKBlurView *)blurView {
+    if (!_blurView) {
+        _blurView = [[WKBlurView alloc] initWithFrame:self.view.bounds];
+    }
+    
+    return _blurView;
+}
 
 
 
