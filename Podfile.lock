@@ -1,27 +1,33 @@
 PODS:
+  - FXBlurView (1.6.4)
   - HexColors (4.0.0)
   - iOS-blur (0.0.5)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
-  - WKUIKit (0.1.2):
+  - WKUIKit (0.1.4):
     - HexColors
     - SDWebImage
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - FXBlurView
   - iOS-blur
-  - WKUIKit (from `~/WorkSpace/WKUIKit`)
+  - WKUIKit (from `~/WorkSpace/Pods/WKUIKit`)
+  - YYModel
 
 EXTERNAL SOURCES:
   WKUIKit:
-    :path: ~/WorkSpace/WKUIKit
+    :path: ~/WorkSpace/Pods/WKUIKit
 
 SPEC CHECKSUMS:
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   iOS-blur: 8e4a4a2202b881e940869eca0c957808cbdf0a19
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
-  WKUIKit: d6ac03b9f8ea5932483005511283935e894f7f47
+  WKUIKit: cb8289762c0405da1481f4e53474dd39dd44dbc2
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: a79a4540438466afbf49ac128f37458205337f64
+PODFILE CHECKSUM: f6c2ce8da03059e17669fcbf4b77f3293e8205b9
 
 COCOAPODS: 1.0.1

@@ -7,6 +7,7 @@
 //
 
 #import "WKRootViewController.h"
+#import "WKUserItem.h"
 
 @interface WKRootViewController()
 
@@ -24,7 +25,6 @@
     [self.view addSubview:self.imageView];
     
     self.imageView.imageUrlString = @"http://img1.ph.126.net/KTR6BiWabyqPdq9pCwTBgw==/6631812135071925499.jpg";
-    
 }
 
 #pragma mark - 
@@ -38,6 +38,10 @@
     
     return _imageView;
 }
+
+
+
+
 
 
 
