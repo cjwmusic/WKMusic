@@ -27,4 +27,12 @@
     return items.copy;
 }
 
++ (NSDictionary *)modelCustomPropertyMapper {
+    return [self itemCustomPropertyMapper];
+}
+
++ (NSDictionary *)itemCustomPropertyMapper {
+    return nil;
+}
+
 @end

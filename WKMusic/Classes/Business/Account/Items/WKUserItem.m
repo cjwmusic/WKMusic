@@ -10,4 +10,8 @@
 
 @implementation WKUserItem
 
++ (NSDictionary *)itemCustomPropertyMapper {
+    return @{@"userNick" : @"aaa"};
+}
+
 @end

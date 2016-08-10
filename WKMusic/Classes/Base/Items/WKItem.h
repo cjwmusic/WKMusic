@@ -13,5 +13,6 @@
 + (instancetype)itemWithDictionary:(NSDictionary *)dictionary;
 + (NSArray *)itemsWithArray:(NSArray *)array;
 
++ (NSDictionary *)itemCustomPropertyMapper;
 
 @end
