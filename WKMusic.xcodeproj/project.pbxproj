@@ -10,6 +10,7 @@
 		67084B201D59F8FA00E03E9C /* WKUserIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084B1F1D59F8FA00E03E9C /* WKUserIndexViewController.m */; };
 		67084B241D59F93A00E03E9C /* WKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084B231D59F93A00E03E9C /* WKItem.m */; };
 		67084B271D59F94A00E03E9C /* WKUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084B261D59F94A00E03E9C /* WKUserItem.m */; };
+		671252511D5B126B0039A077 /* WKBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671252501D5B126B0039A077 /* WKBlurView.m */; };
 		6718956F1D54C25E007E3720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718956E1D54C25E007E3720 /* main.m */; };
 		671895721D54C25E007E3720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895711D54C25E007E3720 /* AppDelegate.m */; };
 		6718957A1D54C25E007E3720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671895791D54C25E007E3720 /* Assets.xcassets */; };
@@ -46,6 +47,8 @@
 		67084B231D59F93A00E03E9C /* WKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKItem.m; sourceTree = "<group>"; };
 		67084B251D59F94A00E03E9C /* WKUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserItem.h; sourceTree = "<group>"; };
 		67084B261D59F94A00E03E9C /* WKUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserItem.m; sourceTree = "<group>"; };
+		6712524F1D5B126B0039A077 /* WKBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBlurView.h; sourceTree = "<group>"; };
+		671252501D5B126B0039A077 /* WKBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBlurView.m; sourceTree = "<group>"; };
 		6718956A1D54C25E007E3720 /* WKMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6718956E1D54C25E007E3720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		671895701D54C25E007E3720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,6 +170,15 @@
 			path = Items;
 			sourceTree = "<group>";
 		};
+		6712524E1D5B120A0039A077 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6712524F1D5B126B0039A077 /* WKBlurView.h */,
+				671252501D5B126B0039A077 /* WKBlurView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		671895611D54C25E007E3720 = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +255,7 @@
 		671895A11D54C56B007E3720 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				6712524E1D5B120A0039A077 /* Views */,
 				67084B211D59F92400E03E9C /* Items */,
 				671895A21D54C56B007E3720 /* Controllers */,
 				671895A31D54C56B007E3720 /* Utils */,
@@ -474,6 +487,7 @@
 				6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */,
 				678647781D54C66A00451958 /* WKBaseViewController.m in Sources */,
 				67084B271D59F94A00E03E9C /* WKUserItem.m in Sources */,
+				671252511D5B126B0039A077 /* WKBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
