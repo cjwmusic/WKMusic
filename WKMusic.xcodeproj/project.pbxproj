@@ -14,11 +14,14 @@
 		6712525C1D5B17200039A077 /* WKMainPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671252581D5B17200039A077 /* WKMainPlayerViewController.m */; };
 		6712525F1D5B17490039A077 /* WKMainPlayerNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712525E1D5B17490039A077 /* WKMainPlayerNavBar.m */; };
 		671252611D5B1DC80039A077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671252601D5B1DC80039A077 /* Assets.xcassets */; };
+		671252641D5B60020039A077 /* WKMainPlayerInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671252631D5B60020039A077 /* WKMainPlayerInfoView.m */; };
 		6718956F1D54C25E007E3720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718956E1D54C25E007E3720 /* main.m */; };
 		671895721D54C25E007E3720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895711D54C25E007E3720 /* AppDelegate.m */; };
 		6718957D1D54C25E007E3720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */; };
 		671895881D54C25E007E3720 /* WKMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895871D54C25E007E3720 /* WKMusicTests.m */; };
 		671895931D54C25E007E3720 /* WKMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895921D54C25E007E3720 /* WKMusicUITests.m */; };
+		6759CBD01D5D6DD400521328 /* WKMusicSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6759CBCF1D5D6DD400521328 /* WKMusicSliderBar.m */; };
+		6759CBD31D5D816300521328 /* WKMainPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6759CBD21D5D816300521328 /* WKMainPlayerControlView.m */; };
 		677981F91D55FE6A00FCAADB /* WKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 677981F81D55FE6A00FCAADB /* WKUtil.m */; };
 		678647781D54C66A00451958 /* WKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678647771D54C66A00451958 /* WKBaseViewController.m */; };
 		6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786477B1D54C6A400451958 /* WKRootViewController.m */; };
@@ -56,6 +59,8 @@
 		6712525D1D5B17490039A077 /* WKMainPlayerNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerNavBar.h; sourceTree = "<group>"; };
 		6712525E1D5B17490039A077 /* WKMainPlayerNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerNavBar.m; sourceTree = "<group>"; };
 		671252601D5B1DC80039A077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671252621D5B60020039A077 /* WKMainPlayerInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerInfoView.h; sourceTree = "<group>"; };
+		671252631D5B60020039A077 /* WKMainPlayerInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerInfoView.m; sourceTree = "<group>"; };
 		6718956A1D54C25E007E3720 /* WKMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6718956E1D54C25E007E3720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		671895701D54C25E007E3720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +73,10 @@
 		6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671895921D54C25E007E3720 /* WKMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMusicUITests.m; sourceTree = "<group>"; };
 		671895941D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6759CBCE1D5D6DD400521328 /* WKMusicSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMusicSliderBar.h; sourceTree = "<group>"; };
+		6759CBCF1D5D6DD400521328 /* WKMusicSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMusicSliderBar.m; sourceTree = "<group>"; };
+		6759CBD11D5D816300521328 /* WKMainPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerControlView.h; sourceTree = "<group>"; };
+		6759CBD21D5D816300521328 /* WKMainPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerControlView.m; sourceTree = "<group>"; };
 		677981AE1D55BF1600FCAADB /* WKMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WKMusic-Prefix.pch"; path = "WKMusic/WKMusic-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		677981AF1D55C19B00FCAADB /* WKDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDefinition.h; sourceTree = "<group>"; };
 		677981F71D55FE6A00FCAADB /* WKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUtil.h; sourceTree = "<group>"; };
@@ -225,6 +234,12 @@
 			children = (
 				6712525D1D5B17490039A077 /* WKMainPlayerNavBar.h */,
 				6712525E1D5B17490039A077 /* WKMainPlayerNavBar.m */,
+				671252621D5B60020039A077 /* WKMainPlayerInfoView.h */,
+				671252631D5B60020039A077 /* WKMainPlayerInfoView.m */,
+				6759CBCE1D5D6DD400521328 /* WKMusicSliderBar.h */,
+				6759CBCF1D5D6DD400521328 /* WKMusicSliderBar.m */,
+				6759CBD11D5D816300521328 /* WKMainPlayerControlView.h */,
+				6759CBD21D5D816300521328 /* WKMainPlayerControlView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -529,8 +544,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671252641D5B60020039A077 /* WKMainPlayerInfoView.m in Sources */,
 				67084B201D59F8FA00E03E9C /* WKUserIndexViewController.m in Sources */,
+				6759CBD31D5D816300521328 /* WKMainPlayerControlView.m in Sources */,
 				677981F91D55FE6A00FCAADB /* WKUtil.m in Sources */,
+				6759CBD01D5D6DD400521328 /* WKMusicSliderBar.m in Sources */,
 				6712525F1D5B17490039A077 /* WKMainPlayerNavBar.m in Sources */,
 				6712525C1D5B17200039A077 /* WKMainPlayerViewController.m in Sources */,
 				671895721D54C25E007E3720 /* AppDelegate.m in Sources */,
