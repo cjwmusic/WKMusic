@@ -8,10 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class WKMainPlayerNavBar;
+@protocol  WKMainPlayerNavBarDelegate <NSObject>
+
+- (void)navBarTapLeftButton:(WKMainPlayerNavBar *)navBar;
+- (void)navBarTapRightButton:(WKMainPlayerNavBar *)navBar;
+
+@end
+
 @interface WKMainPlayerNavBar : UIView
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *subTitle;
+@property (nonatomic, weak) id<WKMainPlayerNavBarDelegate> delegate;
 
 @end
 

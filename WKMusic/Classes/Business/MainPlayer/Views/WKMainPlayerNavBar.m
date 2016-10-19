@@ -46,6 +46,8 @@
         _leftButton = [[UIButton alloc] init];
         [_leftButton setImage:[UIImage imageNamed:@"hamburger_menu"] forState:UIControlStateNormal];
         _leftButton.imageView.contentMode = UIViewContentModeScaleAspectFit;
+        [_leftButton addTarget:self action:@selector(onTapLeftButton) forControlEvents:UIControlEventTouchUpInside];
+        
     }
     
     return _leftButton;
@@ -57,6 +59,8 @@
         _rightButton.contentMode = UIViewContentModeScaleAspectFit;
         [_rightButton setImage:[UIImage imageNamed:@"hide_songs"] forState:UIControlStateNormal];
         _rightButton.imageView.contentMode = UIViewContentModeScaleAspectFit;
+        
+        [_rightButton addTarget:self action:@selector(onTapRightButton) forControlEvents:UIControlEventTouchUpInside];
     }
     
     return _rightButton;
@@ -94,6 +98,20 @@
     self.subTitleLabel.text = subTitle;
 }
 
+#pragma mark - 
+#pragma mark Events
+
+- (void)onTapLeftButton {
+    if ([self.delegate respondsToSelector:@selector(navBarTapLeftButton:)]) {
+        [self.delegate navBarTapLeftButton:self];
+    }
+}
+
+- (void)onTapRightButton {
+    if ([self.delegate respondsToSelector:@selector(navBarTapRightButton:)]) {
+        [self.delegate navBarTapRightButton:self];
+    }
+}
 
 
 @end

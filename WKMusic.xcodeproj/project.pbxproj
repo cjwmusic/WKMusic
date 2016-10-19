@@ -1,901 +1,2046 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		67084B201D59F8FA00E03E9C /* WKUserIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084B1F1D59F8FA00E03E9C /* WKUserIndexViewController.m */; };
-		67084B241D59F93A00E03E9C /* WKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084B231D59F93A00E03E9C /* WKItem.m */; };
-		67084B271D59F94A00E03E9C /* WKUserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084B261D59F94A00E03E9C /* WKUserItem.m */; };
-		671252511D5B126B0039A077 /* WKBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671252501D5B126B0039A077 /* WKBlurView.m */; };
-		6712525C1D5B17200039A077 /* WKMainPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671252581D5B17200039A077 /* WKMainPlayerViewController.m */; };
-		6712525F1D5B17490039A077 /* WKMainPlayerNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6712525E1D5B17490039A077 /* WKMainPlayerNavBar.m */; };
-		671252611D5B1DC80039A077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671252601D5B1DC80039A077 /* Assets.xcassets */; };
-		671252641D5B60020039A077 /* WKMainPlayerInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671252631D5B60020039A077 /* WKMainPlayerInfoView.m */; };
-		6718956F1D54C25E007E3720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718956E1D54C25E007E3720 /* main.m */; };
-		671895721D54C25E007E3720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895711D54C25E007E3720 /* AppDelegate.m */; };
-		6718957D1D54C25E007E3720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */; };
-		671895881D54C25E007E3720 /* WKMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895871D54C25E007E3720 /* WKMusicTests.m */; };
-		671895931D54C25E007E3720 /* WKMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671895921D54C25E007E3720 /* WKMusicUITests.m */; };
-		6759CBD01D5D6DD400521328 /* WKMusicSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6759CBCF1D5D6DD400521328 /* WKMusicSliderBar.m */; };
-		6759CBD31D5D816300521328 /* WKMainPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6759CBD21D5D816300521328 /* WKMainPlayerControlView.m */; };
-		6759CBE51D5DA7E400521328 /* WKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6759CBE41D5DA7E400521328 /* WKMainViewController.m */; };
-		6759CBEB1D5DA93F00521328 /* pic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6759CBE81D5DA93F00521328 /* pic0.jpg */; };
-		6759CBEC1D5DA93F00521328 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6759CBE91D5DA93F00521328 /* pic1.jpg */; };
-		6759CBED1D5DA93F00521328 /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6759CBEA1D5DA93F00521328 /* pic2.jpg */; };
-		677981F91D55FE6A00FCAADB /* WKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 677981F81D55FE6A00FCAADB /* WKUtil.m */; };
-		678647781D54C66A00451958 /* WKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678647771D54C66A00451958 /* WKBaseViewController.m */; };
-		6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6786477B1D54C6A400451958 /* WKRootViewController.m */; };
-		DF896CBF0806802F2FADC35E /* libPods-WKMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		671895841D54C25E007E3720 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 671895621D54C25E007E3720 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 671895691D54C25E007E3720;
-			remoteInfo = WKMusic;
-		};
-		6718958F1D54C25E007E3720 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 671895621D54C25E007E3720 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 671895691D54C25E007E3720;
-			remoteInfo = WKMusic;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		67084B1E1D59F8FA00E03E9C /* WKUserIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserIndexViewController.h; sourceTree = "<group>"; };
-		67084B1F1D59F8FA00E03E9C /* WKUserIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserIndexViewController.m; sourceTree = "<group>"; };
-		67084B221D59F93A00E03E9C /* WKItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKItem.h; sourceTree = "<group>"; };
-		67084B231D59F93A00E03E9C /* WKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKItem.m; sourceTree = "<group>"; };
-		67084B251D59F94A00E03E9C /* WKUserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserItem.h; sourceTree = "<group>"; };
-		67084B261D59F94A00E03E9C /* WKUserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserItem.m; sourceTree = "<group>"; };
-		6712524F1D5B126B0039A077 /* WKBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBlurView.h; sourceTree = "<group>"; };
-		671252501D5B126B0039A077 /* WKBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBlurView.m; sourceTree = "<group>"; };
-		671252571D5B17200039A077 /* WKMainPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerViewController.h; sourceTree = "<group>"; };
-		671252581D5B17200039A077 /* WKMainPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerViewController.m; sourceTree = "<group>"; };
-		6712525D1D5B17490039A077 /* WKMainPlayerNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerNavBar.h; sourceTree = "<group>"; };
-		6712525E1D5B17490039A077 /* WKMainPlayerNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerNavBar.m; sourceTree = "<group>"; };
-		671252601D5B1DC80039A077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		671252621D5B60020039A077 /* WKMainPlayerInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerInfoView.h; sourceTree = "<group>"; };
-		671252631D5B60020039A077 /* WKMainPlayerInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerInfoView.m; sourceTree = "<group>"; };
-		6718956A1D54C25E007E3720 /* WKMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6718956E1D54C25E007E3720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		671895701D54C25E007E3720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		671895711D54C25E007E3720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6718957C1D54C25E007E3720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6718957E1D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		671895831D54C25E007E3720 /* WKMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		671895871D54C25E007E3720 /* WKMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMusicTests.m; sourceTree = "<group>"; };
-		671895891D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		671895921D54C25E007E3720 /* WKMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMusicUITests.m; sourceTree = "<group>"; };
-		671895941D54C25E007E3720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6759CBCE1D5D6DD400521328 /* WKMusicSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMusicSliderBar.h; sourceTree = "<group>"; };
-		6759CBCF1D5D6DD400521328 /* WKMusicSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMusicSliderBar.m; sourceTree = "<group>"; };
-		6759CBD11D5D816300521328 /* WKMainPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainPlayerControlView.h; sourceTree = "<group>"; };
-		6759CBD21D5D816300521328 /* WKMainPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainPlayerControlView.m; sourceTree = "<group>"; };
-		6759CBE31D5DA7E400521328 /* WKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMainViewController.h; sourceTree = "<group>"; };
-		6759CBE41D5DA7E400521328 /* WKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMainViewController.m; sourceTree = "<group>"; };
-		6759CBE81D5DA93F00521328 /* pic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic0.jpg; sourceTree = "<group>"; };
-		6759CBE91D5DA93F00521328 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
-		6759CBEA1D5DA93F00521328 /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
-		677981AE1D55BF1600FCAADB /* WKMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WKMusic-Prefix.pch"; path = "WKMusic/WKMusic-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		677981AF1D55C19B00FCAADB /* WKDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDefinition.h; sourceTree = "<group>"; };
-		677981F71D55FE6A00FCAADB /* WKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUtil.h; sourceTree = "<group>"; };
-		677981F81D55FE6A00FCAADB /* WKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUtil.m; sourceTree = "<group>"; };
-		678647761D54C66A00451958 /* WKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseViewController.h; sourceTree = "<group>"; };
-		678647771D54C66A00451958 /* WKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseViewController.m; sourceTree = "<group>"; };
-		6786477A1D54C6A400451958 /* WKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRootViewController.h; sourceTree = "<group>"; };
-		6786477B1D54C6A400451958 /* WKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRootViewController.m; sourceTree = "<group>"; };
-		A0DEAFFE665C84E7D126C6CB /* Pods-WKMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic.release.xcconfig"; sourceTree = "<group>"; };
-		BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8FEFB9EB42A56EF29854C14 /* Pods-WKMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic.debug.xcconfig"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		671895671D54C25E007E3720 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF896CBF0806802F2FADC35E /* libPods-WKMusic.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		671895801D54C25E007E3720 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6718958B1D54C25E007E3720 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		409BA12EF99445AF37BBC012 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D8FEFB9EB42A56EF29854C14 /* Pods-WKMusic.debug.xcconfig */,
-				A0DEAFFE665C84E7D126C6CB /* Pods-WKMusic.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		67084B181D59F8A900E03E9C /* Business */ = {
-			isa = PBXGroup;
-			children = (
-				6759CBD81D5DA34100521328 /* Home */,
-				671252521D5B16CC0039A077 /* MainPlayer */,
-				67084B191D59F8A900E03E9C /* Account */,
-			);
-			path = Business;
-			sourceTree = "<group>";
-		};
-		67084B191D59F8A900E03E9C /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				67084B1A1D59F8DB00E03E9C /* Controllers */,
-				67084B1B1D59F8DB00E03E9C /* Items */,
-				67084B1C1D59F8DB00E03E9C /* Models */,
-				67084B1D1D59F8DB00E03E9C /* Views */,
-			);
-			path = Account;
-			sourceTree = "<group>";
-		};
-		67084B1A1D59F8DB00E03E9C /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				67084B1E1D59F8FA00E03E9C /* WKUserIndexViewController.h */,
-				67084B1F1D59F8FA00E03E9C /* WKUserIndexViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		67084B1B1D59F8DB00E03E9C /* Items */ = {
-			isa = PBXGroup;
-			children = (
-				67084B251D59F94A00E03E9C /* WKUserItem.h */,
-				67084B261D59F94A00E03E9C /* WKUserItem.m */,
-			);
-			path = Items;
-			sourceTree = "<group>";
-		};
-		67084B1C1D59F8DB00E03E9C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		67084B1D1D59F8DB00E03E9C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		67084B211D59F92400E03E9C /* Items */ = {
-			isa = PBXGroup;
-			children = (
-				67084B221D59F93A00E03E9C /* WKItem.h */,
-				67084B231D59F93A00E03E9C /* WKItem.m */,
-			);
-			path = Items;
-			sourceTree = "<group>";
-		};
-		6712524E1D5B120A0039A077 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6712524F1D5B126B0039A077 /* WKBlurView.h */,
-				671252501D5B126B0039A077 /* WKBlurView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		671252521D5B16CC0039A077 /* MainPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				671252561D5B17200039A077 /* Controllers */,
-				671252591D5B17200039A077 /* Items */,
-				6712525A1D5B17200039A077 /* Models */,
-				6712525B1D5B17200039A077 /* Views */,
-			);
-			path = MainPlayer;
-			sourceTree = "<group>";
-		};
-		671252561D5B17200039A077 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				671252571D5B17200039A077 /* WKMainPlayerViewController.h */,
-				671252581D5B17200039A077 /* WKMainPlayerViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		671252591D5B17200039A077 /* Items */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Items;
-			sourceTree = "<group>";
-		};
-		6712525A1D5B17200039A077 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6712525B1D5B17200039A077 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6712525D1D5B17490039A077 /* WKMainPlayerNavBar.h */,
-				6712525E1D5B17490039A077 /* WKMainPlayerNavBar.m */,
-				671252621D5B60020039A077 /* WKMainPlayerInfoView.h */,
-				671252631D5B60020039A077 /* WKMainPlayerInfoView.m */,
-				6759CBCE1D5D6DD400521328 /* WKMusicSliderBar.h */,
-				6759CBCF1D5D6DD400521328 /* WKMusicSliderBar.m */,
-				6759CBD11D5D816300521328 /* WKMainPlayerControlView.h */,
-				6759CBD21D5D816300521328 /* WKMainPlayerControlView.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		671895611D54C25E007E3720 = {
-			isa = PBXGroup;
-			children = (
-				6718956C1D54C25E007E3720 /* WKMusic */,
-				671895861D54C25E007E3720 /* WKMusicTests */,
-				671895911D54C25E007E3720 /* WKMusicUITests */,
-				6718956B1D54C25E007E3720 /* Products */,
-				409BA12EF99445AF37BBC012 /* Pods */,
-				C001D2D1CAFB11A44BEDC255 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		6718956B1D54C25E007E3720 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6718956A1D54C25E007E3720 /* WKMusic.app */,
-				671895831D54C25E007E3720 /* WKMusicTests.xctest */,
-				6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6718956C1D54C25E007E3720 /* WKMusic */ = {
-			isa = PBXGroup;
-			children = (
-				671895A01D54C56B007E3720 /* Classes */,
-				671895701D54C25E007E3720 /* AppDelegate.h */,
-				671895711D54C25E007E3720 /* AppDelegate.m */,
-				6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */,
-				6718957E1D54C25E007E3720 /* Info.plist */,
-				6759CBE61D5DA93F00521328 /* Resources */,
-				6718956D1D54C25E007E3720 /* Supporting Files */,
-				671252601D5B1DC80039A077 /* Assets.xcassets */,
-			);
-			path = WKMusic;
-			sourceTree = "<group>";
-		};
-		6718956D1D54C25E007E3720 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				677981AE1D55BF1600FCAADB /* WKMusic-Prefix.pch */,
-				6718956E1D54C25E007E3720 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		671895861D54C25E007E3720 /* WKMusicTests */ = {
-			isa = PBXGroup;
-			children = (
-				671895871D54C25E007E3720 /* WKMusicTests.m */,
-				671895891D54C25E007E3720 /* Info.plist */,
-			);
-			path = WKMusicTests;
-			sourceTree = "<group>";
-		};
-		671895911D54C25E007E3720 /* WKMusicUITests */ = {
-			isa = PBXGroup;
-			children = (
-				671895921D54C25E007E3720 /* WKMusicUITests.m */,
-				671895941D54C25E007E3720 /* Info.plist */,
-			);
-			path = WKMusicUITests;
-			sourceTree = "<group>";
-		};
-		671895A01D54C56B007E3720 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				67084B181D59F8A900E03E9C /* Business */,
-				671895A11D54C56B007E3720 /* Base */,
-				678647791D54C68B00451958 /* Root */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		671895A11D54C56B007E3720 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				6712524E1D5B120A0039A077 /* Views */,
-				67084B211D59F92400E03E9C /* Items */,
-				671895A21D54C56B007E3720 /* Controllers */,
-				671895A31D54C56B007E3720 /* Utils */,
-				677981AF1D55C19B00FCAADB /* WKDefinition.h */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		671895A21D54C56B007E3720 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				678647761D54C66A00451958 /* WKBaseViewController.h */,
-				678647771D54C66A00451958 /* WKBaseViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		671895A31D54C56B007E3720 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				677981F71D55FE6A00FCAADB /* WKUtil.h */,
-				677981F81D55FE6A00FCAADB /* WKUtil.m */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		6759CBD81D5DA34100521328 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				6759CBD91D5DA34100521328 /* Cells */,
-				6759CBDA1D5DA34100521328 /* Controllers */,
-				6759CBDB1D5DA34100521328 /* DataSources */,
-				6759CBDC1D5DA34100521328 /* Delegates */,
-				6759CBDD1D5DA34100521328 /* Items */,
-				6759CBDE1D5DA34100521328 /* Models */,
-				6759CBDF1D5DA34100521328 /* Views */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		6759CBD91D5DA34100521328 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		6759CBDA1D5DA34100521328 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				6759CBE31D5DA7E400521328 /* WKMainViewController.h */,
-				6759CBE41D5DA7E400521328 /* WKMainViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		6759CBDB1D5DA34100521328 /* DataSources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataSources;
-			sourceTree = "<group>";
-		};
-		6759CBDC1D5DA34100521328 /* Delegates */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Delegates;
-			sourceTree = "<group>";
-		};
-		6759CBDD1D5DA34100521328 /* Items */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Items;
-			sourceTree = "<group>";
-		};
-		6759CBDE1D5DA34100521328 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6759CBDF1D5DA34100521328 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		6759CBE61D5DA93F00521328 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6759CBE71D5DA93F00521328 /* images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		6759CBE71D5DA93F00521328 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				6759CBE81D5DA93F00521328 /* pic0.jpg */,
-				6759CBE91D5DA93F00521328 /* pic1.jpg */,
-				6759CBEA1D5DA93F00521328 /* pic2.jpg */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		678647791D54C68B00451958 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				6786477A1D54C6A400451958 /* WKRootViewController.h */,
-				6786477B1D54C6A400451958 /* WKRootViewController.m */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		C001D2D1CAFB11A44BEDC255 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BCF886F348B0C527DFE85ABD /* libPods-WKMusic.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		671895691D54C25E007E3720 /* WKMusic */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 671895971D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusic" */;
-			buildPhases = (
-				87AD3AED65873AAB5DFB043C /* [CP] Check Pods Manifest.lock */,
-				671895661D54C25E007E3720 /* Sources */,
-				671895671D54C25E007E3720 /* Frameworks */,
-				671895681D54C25E007E3720 /* Resources */,
-				83B8B6A6EC7B4C6815D6B6A5 /* [CP] Embed Pods Frameworks */,
-				0184F03737B9F076A69EC57E /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WKMusic;
-			productName = WKMusic;
-			productReference = 6718956A1D54C25E007E3720 /* WKMusic.app */;
-			productType = "com.apple.product-type.application";
-		};
-		671895821D54C25E007E3720 /* WKMusicTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6718959A1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicTests" */;
-			buildPhases = (
-				6718957F1D54C25E007E3720 /* Sources */,
-				671895801D54C25E007E3720 /* Frameworks */,
-				671895811D54C25E007E3720 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				671895851D54C25E007E3720 /* PBXTargetDependency */,
-			);
-			name = WKMusicTests;
-			productName = WKMusicTests;
-			productReference = 671895831D54C25E007E3720 /* WKMusicTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6718958D1D54C25E007E3720 /* WKMusicUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6718959D1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicUITests" */;
-			buildPhases = (
-				6718958A1D54C25E007E3720 /* Sources */,
-				6718958B1D54C25E007E3720 /* Frameworks */,
-				6718958C1D54C25E007E3720 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				671895901D54C25E007E3720 /* PBXTargetDependency */,
-			);
-			name = WKMusicUITests;
-			productName = WKMusicUITests;
-			productReference = 6718958E1D54C25E007E3720 /* WKMusicUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		671895621D54C25E007E3720 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = wukong;
-				TargetAttributes = {
-					671895691D54C25E007E3720 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					671895821D54C25E007E3720 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 671895691D54C25E007E3720;
-					};
-					6718958D1D54C25E007E3720 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 671895691D54C25E007E3720;
-					};
-				};
-			};
-			buildConfigurationList = 671895651D54C25E007E3720 /* Build configuration list for PBXProject "WKMusic" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 671895611D54C25E007E3720;
-			productRefGroup = 6718956B1D54C25E007E3720 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				671895691D54C25E007E3720 /* WKMusic */,
-				671895821D54C25E007E3720 /* WKMusicTests */,
-				6718958D1D54C25E007E3720 /* WKMusicUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		671895681D54C25E007E3720 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6759CBEC1D5DA93F00521328 /* pic1.jpg in Resources */,
-				6759CBED1D5DA93F00521328 /* pic2.jpg in Resources */,
-				671252611D5B1DC80039A077 /* Assets.xcassets in Resources */,
-				6759CBEB1D5DA93F00521328 /* pic0.jpg in Resources */,
-				6718957D1D54C25E007E3720 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		671895811D54C25E007E3720 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6718958C1D54C25E007E3720 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0184F03737B9F076A69EC57E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		83B8B6A6EC7B4C6815D6B6A5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87AD3AED65873AAB5DFB043C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		671895661D54C25E007E3720 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				671252641D5B60020039A077 /* WKMainPlayerInfoView.m in Sources */,
-				67084B201D59F8FA00E03E9C /* WKUserIndexViewController.m in Sources */,
-				6759CBD31D5D816300521328 /* WKMainPlayerControlView.m in Sources */,
-				677981F91D55FE6A00FCAADB /* WKUtil.m in Sources */,
-				6759CBD01D5D6DD400521328 /* WKMusicSliderBar.m in Sources */,
-				6712525F1D5B17490039A077 /* WKMainPlayerNavBar.m in Sources */,
-				6712525C1D5B17200039A077 /* WKMainPlayerViewController.m in Sources */,
-				6759CBE51D5DA7E400521328 /* WKMainViewController.m in Sources */,
-				671895721D54C25E007E3720 /* AppDelegate.m in Sources */,
-				6718956F1D54C25E007E3720 /* main.m in Sources */,
-				67084B241D59F93A00E03E9C /* WKItem.m in Sources */,
-				6786477C1D54C6A400451958 /* WKRootViewController.m in Sources */,
-				678647781D54C66A00451958 /* WKBaseViewController.m in Sources */,
-				67084B271D59F94A00E03E9C /* WKUserItem.m in Sources */,
-				671252511D5B126B0039A077 /* WKBlurView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6718957F1D54C25E007E3720 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				671895881D54C25E007E3720 /* WKMusicTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6718958A1D54C25E007E3720 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				671895931D54C25E007E3720 /* WKMusicUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		671895851D54C25E007E3720 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 671895691D54C25E007E3720 /* WKMusic */;
-			targetProxy = 671895841D54C25E007E3720 /* PBXContainerItemProxy */;
-		};
-		671895901D54C25E007E3720 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 671895691D54C25E007E3720 /* WKMusic */;
-			targetProxy = 6718958F1D54C25E007E3720 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6718957B1D54C25E007E3720 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6718957C1D54C25E007E3720 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		671895951D54C25E007E3720 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		671895961D54C25E007E3720 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		671895981D54C25E007E3720 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8FEFB9EB42A56EF29854C14 /* Pods-WKMusic.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "WKMusic/WKMusic-Prefix.pch";
-				INFOPLIST_FILE = WKMusic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		671895991D54C25E007E3720 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0DEAFFE665C84E7D126C6CB /* Pods-WKMusic.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "WKMusic/WKMusic-Prefix.pch";
-				INFOPLIST_FILE = WKMusic/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6718959B1D54C25E007E3720 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WKMusicTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKMusic.app/WKMusic";
-			};
-			name = Debug;
-		};
-		6718959C1D54C25E007E3720 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WKMusicTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKMusic.app/WKMusic";
-			};
-			name = Release;
-		};
-		6718959E1D54C25E007E3720 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = WKMusicUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WKMusic;
-			};
-			name = Debug;
-		};
-		6718959F1D54C25E007E3720 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = WKMusicUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wukong.WKMusicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WKMusic;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		671895651D54C25E007E3720 /* Build configuration list for PBXProject "WKMusic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				671895951D54C25E007E3720 /* Debug */,
-				671895961D54C25E007E3720 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		671895971D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				671895981D54C25E007E3720 /* Debug */,
-				671895991D54C25E007E3720 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6718959A1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6718959B1D54C25E007E3720 /* Debug */,
-				6718959C1D54C25E007E3720 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6718959D1D54C25E007E3720 /* Build configuration list for PBXNativeTarget "WKMusicUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6718959E1D54C25E007E3720 /* Debug */,
-				6718959F1D54C25E007E3720 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 671895621D54C25E007E3720 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0184F03737B9F076A69EC57E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>11EAB04C779D38DCAA108BCB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>409BA12EF99445AF37BBC012</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8FEFB9EB42A56EF29854C14</string>
+				<string>A0DEAFFE665C84E7D126C6CB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B181D59F8A900E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6759CBD81D5DA34100521328</string>
+				<string>671252521D5B16CC0039A077</string>
+				<string>67084B191D59F8A900E03E9C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Business</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B191D59F8A900E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67084B1A1D59F8DB00E03E9C</string>
+				<string>67084B1B1D59F8DB00E03E9C</string>
+				<string>67084B1C1D59F8DB00E03E9C</string>
+				<string>67084B1D1D59F8DB00E03E9C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Account</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B1A1D59F8DB00E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67084B1E1D59F8FA00E03E9C</string>
+				<string>67084B1F1D59F8FA00E03E9C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B1B1D59F8DB00E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67084B251D59F94A00E03E9C</string>
+				<string>67084B261D59F94A00E03E9C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Items</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B1C1D59F8DB00E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Models</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B1D1D59F8DB00E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B1E1D59F8FA00E03E9C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKUserIndexViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B1F1D59F8FA00E03E9C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKUserIndexViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B201D59F8FA00E03E9C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>67084B1F1D59F8FA00E03E9C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>67084B211D59F92400E03E9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67084B221D59F93A00E03E9C</string>
+				<string>67084B231D59F93A00E03E9C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Items</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B221D59F93A00E03E9C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B231D59F93A00E03E9C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B241D59F93A00E03E9C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>67084B231D59F93A00E03E9C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>67084B251D59F94A00E03E9C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKUserItem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B261D59F94A00E03E9C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKUserItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67084B271D59F94A00E03E9C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>67084B261D59F94A00E03E9C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6712524E1D5B120A0039A077</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6712524F1D5B126B0039A077</string>
+				<string>671252501D5B126B0039A077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6712524F1D5B126B0039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKBlurView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252501D5B126B0039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKBlurView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252511D5B126B0039A077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671252501D5B126B0039A077</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671252521D5B16CC0039A077</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>671252561D5B17200039A077</string>
+				<string>671252591D5B17200039A077</string>
+				<string>6712525A1D5B17200039A077</string>
+				<string>6712525B1D5B17200039A077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>MainPlayer</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252561D5B17200039A077</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>671252571D5B17200039A077</string>
+				<string>671252581D5B17200039A077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252571D5B17200039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKMainPlayerViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252581D5B17200039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMainPlayerViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252591D5B17200039A077</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Items</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6712525A1D5B17200039A077</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Models</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6712525B1D5B17200039A077</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6712525D1D5B17490039A077</string>
+				<string>6712525E1D5B17490039A077</string>
+				<string>671252621D5B60020039A077</string>
+				<string>671252631D5B60020039A077</string>
+				<string>6759CBCE1D5D6DD400521328</string>
+				<string>6759CBCF1D5D6DD400521328</string>
+				<string>6759CBD11D5D816300521328</string>
+				<string>6759CBD21D5D816300521328</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6712525C1D5B17200039A077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671252581D5B17200039A077</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6712525D1D5B17490039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKMainPlayerNavBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6712525E1D5B17490039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMainPlayerNavBar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6712525F1D5B17490039A077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6712525E1D5B17490039A077</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671252601D5B1DC80039A077</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252611D5B1DC80039A077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671252601D5B1DC80039A077</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671252621D5B60020039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKMainPlayerInfoView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252631D5B60020039A077</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMainPlayerInfoView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671252641D5B60020039A077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671252631D5B60020039A077</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671895611D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6718956C1D54C25E007E3720</string>
+				<string>671895861D54C25E007E3720</string>
+				<string>671895911D54C25E007E3720</string>
+				<string>6718956B1D54C25E007E3720</string>
+				<string>409BA12EF99445AF37BBC012</string>
+				<string>C001D2D1CAFB11A44BEDC255</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895621D54C25E007E3720</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>wukong</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>671895691D54C25E007E3720</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>671895821D54C25E007E3720</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>671895691D54C25E007E3720</string>
+					</dict>
+					<key>6718958D1D54C25E007E3720</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>671895691D54C25E007E3720</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>671895651D54C25E007E3720</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>671895611D54C25E007E3720</string>
+			<key>productRefGroup</key>
+			<string>6718956B1D54C25E007E3720</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>671895691D54C25E007E3720</string>
+				<string>671895821D54C25E007E3720</string>
+				<string>6718958D1D54C25E007E3720</string>
+			</array>
+		</dict>
+		<key>671895651D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>671895951D54C25E007E3720</string>
+				<string>671895961D54C25E007E3720</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>671895661D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>671252641D5B60020039A077</string>
+				<string>67084B201D59F8FA00E03E9C</string>
+				<string>6759CBD31D5D816300521328</string>
+				<string>677981F91D55FE6A00FCAADB</string>
+				<string>6759CBD01D5D6DD400521328</string>
+				<string>6712525F1D5B17490039A077</string>
+				<string>6712525C1D5B17200039A077</string>
+				<string>6759CBE51D5DA7E400521328</string>
+				<string>671895721D54C25E007E3720</string>
+				<string>6718956F1D54C25E007E3720</string>
+				<string>67084B241D59F93A00E03E9C</string>
+				<string>6786477C1D54C6A400451958</string>
+				<string>678647781D54C66A00451958</string>
+				<string>67084B271D59F94A00E03E9C</string>
+				<string>671252511D5B126B0039A077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>671895671D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DF896CBF0806802F2FADC35E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>671895681D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6759CBEC1D5DA93F00521328</string>
+				<string>6759CBED1D5DA93F00521328</string>
+				<string>671252611D5B1DC80039A077</string>
+				<string>6759CBEB1D5DA93F00521328</string>
+				<string>6718957D1D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>671895691D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>671895971D54C25E007E3720</string>
+			<key>buildPhases</key>
+			<array>
+				<string>87AD3AED65873AAB5DFB043C</string>
+				<string>671895661D54C25E007E3720</string>
+				<string>671895671D54C25E007E3720</string>
+				<string>671895681D54C25E007E3720</string>
+				<string>83B8B6A6EC7B4C6815D6B6A5</string>
+				<string>0184F03737B9F076A69EC57E</string>
+				<string>11EAB04C779D38DCAA108BCB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WKMusic</string>
+			<key>productName</key>
+			<string>WKMusic</string>
+			<key>productReference</key>
+			<string>6718956A1D54C25E007E3720</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>6718956A1D54C25E007E3720</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WKMusic.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6718956B1D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6718956A1D54C25E007E3720</string>
+				<string>671895831D54C25E007E3720</string>
+				<string>6718958E1D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718956C1D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>671895A01D54C56B007E3720</string>
+				<string>671895701D54C25E007E3720</string>
+				<string>671895711D54C25E007E3720</string>
+				<string>6718957B1D54C25E007E3720</string>
+				<string>6718957E1D54C25E007E3720</string>
+				<string>6759CBE61D5DA93F00521328</string>
+				<string>6718956D1D54C25E007E3720</string>
+				<string>671252601D5B1DC80039A077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WKMusic</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718956D1D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>677981AE1D55BF1600FCAADB</string>
+				<string>6718956E1D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718956E1D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718956F1D54C25E007E3720</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6718956E1D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671895701D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895711D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895721D54C25E007E3720</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671895711D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6718957B1D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6718957C1D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718957C1D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718957D1D54C25E007E3720</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6718957B1D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6718957E1D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718957F1D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>671895881D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>671895801D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>671895811D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>671895821D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6718959A1D54C25E007E3720</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6718957F1D54C25E007E3720</string>
+				<string>671895801D54C25E007E3720</string>
+				<string>671895811D54C25E007E3720</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>671895851D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WKMusicTests</string>
+			<key>productName</key>
+			<string>WKMusicTests</string>
+			<key>productReference</key>
+			<string>671895831D54C25E007E3720</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>671895831D54C25E007E3720</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WKMusicTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>671895841D54C25E007E3720</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>671895621D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>671895691D54C25E007E3720</string>
+			<key>remoteInfo</key>
+			<string>WKMusic</string>
+		</dict>
+		<key>671895851D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>671895691D54C25E007E3720</string>
+			<key>targetProxy</key>
+			<string>671895841D54C25E007E3720</string>
+		</dict>
+		<key>671895861D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>671895871D54C25E007E3720</string>
+				<string>671895891D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WKMusicTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895871D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMusicTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895881D54C25E007E3720</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671895871D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671895891D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6718958A1D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>671895931D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6718958B1D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6718958C1D54C25E007E3720</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6718958D1D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6718959D1D54C25E007E3720</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6718958A1D54C25E007E3720</string>
+				<string>6718958B1D54C25E007E3720</string>
+				<string>6718958C1D54C25E007E3720</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>671895901D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WKMusicUITests</string>
+			<key>productName</key>
+			<string>WKMusicUITests</string>
+			<key>productReference</key>
+			<string>6718958E1D54C25E007E3720</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>6718958E1D54C25E007E3720</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WKMusicUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6718958F1D54C25E007E3720</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>671895621D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>671895691D54C25E007E3720</string>
+			<key>remoteInfo</key>
+			<string>WKMusic</string>
+		</dict>
+		<key>671895901D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>671895691D54C25E007E3720</string>
+			<key>targetProxy</key>
+			<string>6718958F1D54C25E007E3720</string>
+		</dict>
+		<key>671895911D54C25E007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>671895921D54C25E007E3720</string>
+				<string>671895941D54C25E007E3720</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WKMusicUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895921D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMusicUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895931D54C25E007E3720</key>
+		<dict>
+			<key>fileRef</key>
+			<string>671895921D54C25E007E3720</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>671895941D54C25E007E3720</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895951D54C25E007E3720</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>671895961D54C25E007E3720</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>671895971D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>671895981D54C25E007E3720</string>
+				<string>671895991D54C25E007E3720</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>671895981D54C25E007E3720</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D8FEFB9EB42A56EF29854C14</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>WKMusic/WKMusic-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WKMusic/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>wukong.WKMusic</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>671895991D54C25E007E3720</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A0DEAFFE665C84E7D126C6CB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>WKMusic/WKMusic-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WKMusic/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>wukong.WKMusic</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6718959A1D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6718959B1D54C25E007E3720</string>
+				<string>6718959C1D54C25E007E3720</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6718959B1D54C25E007E3720</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WKMusicTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>wukong.WKMusicTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/WKMusic.app/WKMusic</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6718959C1D54C25E007E3720</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WKMusicTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>wukong.WKMusicTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/WKMusic.app/WKMusic</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6718959D1D54C25E007E3720</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6718959E1D54C25E007E3720</string>
+				<string>6718959F1D54C25E007E3720</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6718959E1D54C25E007E3720</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>WKMusicUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>wukong.WKMusicUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>WKMusic</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6718959F1D54C25E007E3720</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>WKMusicUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>wukong.WKMusicUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>WKMusic</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>671895A01D54C56B007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>67084B181D59F8A900E03E9C</string>
+				<string>671895A11D54C56B007E3720</string>
+				<string>678647791D54C68B00451958</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895A11D54C56B007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6712524E1D5B120A0039A077</string>
+				<string>67084B211D59F92400E03E9C</string>
+				<string>671895A21D54C56B007E3720</string>
+				<string>671895A31D54C56B007E3720</string>
+				<string>677981AF1D55C19B00FCAADB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Base</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895A21D54C56B007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>678647761D54C66A00451958</string>
+				<string>678647771D54C66A00451958</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>671895A31D54C56B007E3720</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>677981F71D55FE6A00FCAADB</string>
+				<string>677981F81D55FE6A00FCAADB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Utils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBCE1D5D6DD400521328</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKMusicSliderBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBCF1D5D6DD400521328</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMusicSliderBar.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBD01D5D6DD400521328</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6759CBCF1D5D6DD400521328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6759CBD11D5D816300521328</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKMainPlayerControlView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBD21D5D816300521328</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMainPlayerControlView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBD31D5D816300521328</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6759CBD21D5D816300521328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6759CBD81D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6759CBD91D5DA34100521328</string>
+				<string>6759CBDA1D5DA34100521328</string>
+				<string>6759CBDB1D5DA34100521328</string>
+				<string>6759CBDC1D5DA34100521328</string>
+				<string>6759CBDD1D5DA34100521328</string>
+				<string>6759CBDE1D5DA34100521328</string>
+				<string>6759CBDF1D5DA34100521328</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Home</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBD91D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Cells</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBDA1D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6759CBE31D5DA7E400521328</string>
+				<string>6759CBE41D5DA7E400521328</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBDB1D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>DataSources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBDC1D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Delegates</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBDD1D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Items</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBDE1D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Models</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBDF1D5DA34100521328</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBE31D5DA7E400521328</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKMainViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBE41D5DA7E400521328</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKMainViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBE51D5DA7E400521328</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6759CBE41D5DA7E400521328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6759CBE61D5DA93F00521328</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6759CBE71D5DA93F00521328</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBE71D5DA93F00521328</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6759CBE81D5DA93F00521328</string>
+				<string>6759CBE91D5DA93F00521328</string>
+				<string>6759CBEA1D5DA93F00521328</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>images</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBE81D5DA93F00521328</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.jpeg</string>
+			<key>path</key>
+			<string>pic0.jpg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBE91D5DA93F00521328</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.jpeg</string>
+			<key>path</key>
+			<string>pic1.jpg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBEA1D5DA93F00521328</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.jpeg</string>
+			<key>path</key>
+			<string>pic2.jpg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6759CBEB1D5DA93F00521328</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6759CBE81D5DA93F00521328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6759CBEC1D5DA93F00521328</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6759CBE91D5DA93F00521328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6759CBED1D5DA93F00521328</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6759CBEA1D5DA93F00521328</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>677981AE1D55BF1600FCAADB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WKMusic-Prefix.pch</string>
+			<key>path</key>
+			<string>WKMusic/WKMusic-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>677981AF1D55C19B00FCAADB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKDefinition.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>677981F71D55FE6A00FCAADB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKUtil.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>677981F81D55FE6A00FCAADB</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>677981F91D55FE6A00FCAADB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>677981F81D55FE6A00FCAADB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>678647761D54C66A00451958</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKBaseViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>678647771D54C66A00451958</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKBaseViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>678647781D54C66A00451958</key>
+		<dict>
+			<key>fileRef</key>
+			<string>678647771D54C66A00451958</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>678647791D54C68B00451958</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6786477A1D54C6A400451958</string>
+				<string>6786477B1D54C6A400451958</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Root</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6786477A1D54C6A400451958</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>WKRootViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6786477B1D54C6A400451958</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WKRootViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6786477C1D54C6A400451958</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6786477B1D54C6A400451958</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>83B8B6A6EC7B4C6815D6B6A5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>87AD3AED65873AAB5DFB043C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A0DEAFFE665C84E7D126C6CB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WKMusic.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BCF886F348B0C527DFE85ABD</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-WKMusic.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C001D2D1CAFB11A44BEDC255</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BCF886F348B0C527DFE85ABD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8FEFB9EB42A56EF29854C14</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WKMusic.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WKMusic/Pods-WKMusic.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF896CBF0806802F2FADC35E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BCF886F348B0C527DFE85ABD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>671895621D54C25E007E3720</string>
+</dict>
+</plist>

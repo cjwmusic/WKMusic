@@ -10,5 +10,6 @@
 
 @interface WKBaseViewController : UIViewController
 
+@property (nonatomic, assign) BOOL hiddenNavNar;
 
 @end

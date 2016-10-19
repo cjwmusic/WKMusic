@@ -13,7 +13,7 @@
 #import "WKMusicSliderBar.h"
 #import "WKMainPlayerControlView.h"
 
-@interface WKMainPlayerViewController()
+@interface WKMainPlayerViewController() <WKMainPlayerNavBarDelegate>
 
 @property (nonatomic, strong) WKMainPlayerNavBar *navBar;
 @property (nonatomic, strong) WKBlurView *blurView;
@@ -29,6 +29,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.hiddenNavNar = NO;
+    
     [self initViews];
     [self loadData];
 }
@@ -62,6 +65,7 @@
     if (!_navBar) {
         _navBar = [[WKMainPlayerNavBar alloc] initWithFrame:CGRectMake(0, 20, APP_SCREEN_WIDTH, 44)];
         _navBar.backgroundColor = [UIColor clearColor];
+        _navBar.delegate = self;
     }
     return _navBar;
 }
@@ -116,6 +120,17 @@
     }
     
     return _controlView;
+}
+
+#pragma mark - 
+#pragma mark WKMainPlayerNavBarDelegate
+
+- (void)navBarTapLeftButton:(WKMainPlayerNavBar *)navBar {
+    
+}
+
+- (void)navBarTapRightButton:(WKMainPlayerNavBar *)navBar {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

@@ -10,4 +10,6 @@
 
 @interface WKUtil : NSObject
 
++ (UIImage *)createImageWithColor:(UIColor *)color;
+
 @end
